@@ -1,0 +1,20 @@
+export const SF_SYMBOLS_TO_MATERIAL_ICONS = {
+  "textformat.size": "format-size",
+  "rectangle.and.pencil.and.ellipsis": "drive-file-rename-outline",
+  "arrow.up.trash.fill": "restore-from-trash",
+  "folder": "folder-open",
+  "doc.on.clipboard.fill": "file-copy",
+  "menucard.fill": "menu-book",
+  "backpack.fill": "backpack",
+  "person": "person-outline",
+  "person.fill": "person",
+  "accessibility": "accessibility",
+  "moon.fill": "nightlight-round",
+  "giftcard": "card-giftcard",
+  "wifi.router.fill": "router",
+  "play.tv": "live-tv",
+  "tv.badge.wifi": "connected-tv",
+  "at": "alternate-email",
+  "checkmark.square.fill": "check-box",
+  "dollarsign": "attach-money"
+} as const

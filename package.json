@@ -1,0 +1,35 @@
+{
+  "name": "rn-icon-mapper-monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "build": "turbo build --filter=./packages/*",
+    "clean": "turbo clean && rm -rf .turbo node_modules"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.1",
+    "typescript": "^5.8.3"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@babel/*",
+        "expo-modules-*",
+        "typescript"
+      ]
+    }
+  },
+  "prettier": {
+    "printWidth": 100,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "trailingComma": "es5"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "packageManager": "pnpm@9.1.4"
+}
