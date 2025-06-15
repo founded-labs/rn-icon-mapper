@@ -4,7 +4,7 @@ import {
   SF_SYMBOLS_TO_MATERIAL_COMMUNITY_ICONS,
   SF_SYMBOLS_TO_MATERIAL_ICONS,
 } from 'rn-icon-mapper';
-import { IconProps } from './types';
+import type { IconProps } from './types';
 
 function Icon({
   name,

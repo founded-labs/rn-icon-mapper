@@ -9,4 +9,5 @@ export type {
   SfSymbols,
   SfSymbolsFromMaterialCommunityIcons,
   SfSymbolsFromMaterialIcons,
+  IconMapper,
 } from './types';

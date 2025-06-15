@@ -1,6 +1,6 @@
 import { SymbolView } from 'expo-symbols';
 import type { SfSymbols } from 'rn-icon-mapper';
-import { IconProps } from './types';
+import type { IconProps } from './types';
 
 function Icon({
   materialCommunityIcon: _materialCommunityIcon,
