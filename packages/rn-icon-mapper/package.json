@@ -1,6 +1,6 @@
 {
   "name": "rn-icon-mapper",
-  "version": "0.0.0-alpha.1",
+  "version": "0.0.1",
   "description": "A lightweight utility for mapping icon names between SF Symbols, Material Icons, and Material Community Icons.",
   "license": "MIT",
   "main": "dist/index.js",
